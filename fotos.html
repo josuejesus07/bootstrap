@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style01.css">
+    <title>Fotos</title>
+</head>
+<body>
+     <!-- Modal do login -->
+  <div class="modal fade" id="modallogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Entre na 
+          Sua Conta</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar na conta</button>
+            <small  class="form-text text-muted">Esqueceu a senha <a href="#" class="text-primary">clique aqui</a> </small>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- começo do login  -->
+
+    <nav class="sombra navbar navbar-expand-lg bg-light navbar-light p-3 fixed-top ">
+        <a  class="navbar-brand " href="index01.html">
+            <img src="logos/caravan.svg">
+        </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+    
+        <div  class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Locais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">California</a>
+                      <a class="dropdown-item" href="#">Paris</a>
+                      <a class="dropdown-item" href="#">Dublin</a>
+                    </div>
+                
+                <li class="nav-item"><a class="nav-link" href="planos.html">Planos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="#"data-toggle="modal" data-target="#modallogin" class="nav-link">Login</a></li>
+                <li class="nav-item" ><a href="#"  class=" btn btn-outline-primary ml-md-3" >Inscreva-se</a></li>
+            </ul>
+        </div>
+    </nav>
+        <!-- comeco do site  -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-dark text-center mb-0 mt-5 " >O melhor destino da sua viagem</p>
+                    <h3 class="display-4 text-center text-primary pb-4 mb-4" >
+                        Descubra Dublin
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+            <!-- fotos -->
+            <section class="container ml-auto">
+                <div class="card-scrool">
+                    <div class="imagem">
+                        <img class="imagem" src="https://americachip.com/wp-content/uploads/2022/12/conhea-Dublin-na-Irlanda.jpg" alt="">
+                    </div>
+                    <div class="imagem">
+                        <img class="imagem" src="https://agorarn.com.br/files/uploads/2022/05/gfdfh.jpg">
+                    </div>
+                    <div class="imagem">
+                      <img class="imagem" src="http://viva-mundo.com/sites/default/files/images/posts/dublin1.jpg">
+                    </div>   
+                    <div>
+                      <img class="imagem" src="http://viva-mundo.com/sites/default/files/images/posts/dublin1.jpg" alt="">
+                    </div>
+                    <div>
+                      <img class="imagem" src="https://agorarn.com.br/files/uploads/2022/05/gfdfh.jpg" alt="">
+                    </div>
+                    <div>
+                      <img class="imagem" src="https://americachip.com/wp-content/uploads/2022/12/conhea-Dublin-na-Irlanda.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid m-0 mt-5 " style="background-color:#0A0A0A ;">
+              <div class="row py-4 m-0 ">
+                <div class=" col-lg-3 col-md-6 col-6  d-flex justify-content-center">
+                  <ul class="list-unstyled text-white">
+                    <h6 class="text-white">PÁGINAS</h6>
+                    <li><a href="">Planos</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">Inscreva-se</a></li>
+                  </ul>
+                </div>
+            
+                <div class=" col-lg-3 col-md-6 col-6 d-flex justify-content-center">
+                    <ul class="list-unstyled text-white ">
+                      <h6 class="text-white">PÁGINAS</h6>
+                      <li><a href="">California</a></li>
+                      <li><a href="">Paris</a></li>
+                      <li><a href="">Dublin</a></li>
+                    </ul>
+                  </div>
+            
+                  <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center">
+                      <ul class="list-unstyled text-white">
+                        <h6 class="text-white">DADOS DE CONTATO</h6>
+                        <li class="text-white-50">caravan@caravan.com.br</li>
+                        <li class="text-white-50">21 99999-9999</li>
+                        <li class="text-white-50">De Seg. à Sex. das 8h às 18h</li>
+                      </ul>
+                    </div>
+            
+                    <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center">
+                        <ul class="list-unstyled text-white">
+                          <h6 class="text-white">REDES SOCIAIS</h6>
+                          <li><a href="https://www.facebook.com" target="_blank"><button type="button" class="btn btn-outline-secondary mb-2"style="width:140px;">Facebook</button></a></li>
+                          <li><a href="https://www.Twitter.com" target="_blank"> <button type="button" class="btn btn-outline-secondary mb-2 text-center "style="width:140px;">Twitter</button></a></li>
+                          <li><a href="https://www.youtube.com" target="_blank"><button type="button" class="btn btn-outline-secondary text-center"style="width:140px;">Youtube</button></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+              <div class="row m-0">
+                        <div class="col-12 bg-primary py-3">
+                        <h5 class="text-center" style="color:white ;">Caravan © 2017. Alguns direitos reservados.</h5>
+                        </div>
+              </div>
+</body>
+</html>

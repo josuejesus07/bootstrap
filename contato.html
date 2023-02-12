@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style01.css">
+    <title>contato</title>
+</head>
+<body>
+    <div class="modal fade" id="modallogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Entre na 
+              Sua Conta</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Entrar na conta</button>
+                <small  class="form-text text-muted">Esqueceu a senha <a href="#" class="text-primary">clique aqui</a> </small>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- começo do login  -->
+
+    <nav class="sombra navbar navbar-expand-lg bg-light navbar-light p-3 fixed-top ">
+        <a  class="navbar-brand " href="index01.html">
+            <img src="logos/caravan.svg">
+        </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+    
+        <div  class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Locais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="fotos.html">California</a>
+                      <a class="dropdown-item" href="fotos.html">Paris</a>
+                      <a class="dropdown-item" href="fotos.html">Dublin</a>
+                    </div>
+                
+                <li class="nav-item active"><a class="nav-link" href="planos.html">Planos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="#"data-toggle="modal" data-target="#modallogin" class="nav-link">Login</a></li>
+                <li class="nav-item" ><a href="#"  class=" btn btn-outline-primary ml-md-3" >Inscreva-se</a></li>
+            </ul>
+        </div>
+    </nav>
+        <!-- comeco do site  -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-dark text-center mb-0 mt-5 " >POSSUI ALGUMA DÚVIDAS?</p>
+                    <h3 class="display-4 text-center text-primary pb-4 mb-4" >
+                        Fale Conosco
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+
+                
+                <form class="bg-light p-4 raio">
+                    <div class="form-group ">
+                      <label for="nome">Nome</label>
+                      <input type="text" class="form-control" id="nome">
+                    </div>
+                    <div class="form-group ">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                      </div>
+                   
+                    
+                    <div class="form-group">
+                      <label for="mensagem">Mensagem</label>
+                      <textarea class="form-control" id="mensagem" rows="4"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary">Enviar Mensagem</button>
+                  </form>
+                </div>
+            </div>
+    
+    
+</body>
+</html>
