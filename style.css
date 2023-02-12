@@ -1,64 +1,69 @@
-*{
-    padding: 0%;
-    margin: 0%;
+.sombra{
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.09);
 }
-.navbar{
-    display: flex;
-    background-color: #F8F9FA;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 1px 2px 5px  rgba(0, 0, 0, 0.107);
-}
-li a{
-    color:#b9baba ;
-    text-decoration: none;
-}
-ul{
-    list-style: none;
-}
-
-
-.logo{
-    padding: 20px;
-}
-.links {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #b9baba;
+body{
+    padding-top:75px ;
    
-
 }
-.links ul li{
-    margin-right: 18px;
-}
-.links ul li:nth-child(5){
-    color: #F3572B;
-    border: 1px solid #F3572B;
-    padding: 8px 10px;
-    border-radius: 5px;
-    transition: ease-in-out 0.2s;
-}
-.links ul li#inscrevase a{
-    color: #F3572B;
-}
-.links ul li#inscrevase a:hover{
-    color: white;
+.citacao{
+    background: url("bg-quote.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     
 }
-#inscrevase:hover{
-    background-color: #F3572B;
+.fonte01{
+    font-size: 40px;
+}
+.fonte02{
+    font-size: 20px ; 
+}
+.sombra-card{
+    box-shadow:2px 2px 6px  rgba(0, 0, 0, 0.164);
+}
+.estilo-colorido{
+    font-family: monospace;
+    background-color: #218CFF;
     color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+.imagem{
+    max-width:360px;
+    margin-bottom: 10px;
+    height: auto;
+
+}
+.card-scrool{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:20px;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.raio{
+    border-radius:12px ;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.11);
 }
 
 
 
-
-.links ul{
-    display: flex;
-    align-items: center;
-
+@media(max-width:720px){
+    .fonte01{
+        font-size: 25px;
+    }
+    .fonte02{
+        font-size:16px;
+    }
 }
-.links ul li a:hover{
-    color:#919191;
+@media(max-width:1000px){
+    .card-scrool{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow-x:scroll ;
+        justify-content: left;
+    }
+    
 }
+
 
